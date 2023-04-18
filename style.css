@@ -85,8 +85,7 @@ body {
   right: 0;
   margin: auto;
   height: 150px;
-  width: max-content;
-  max-width: 90vw;
+  max-width: 70vw;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -161,10 +160,13 @@ body {
     flex-direction: column;
     text-align: center;
     z-index: 999;
+    top: 0;
+    max-width: 60vw;
     padding:10px 40px;
+    height: 240px;
   }
   .user-data-item {
-    padding: 10px;
+    padding: 5px;
   }
   .user-data-list div .data-term {
     padding: 3px;
